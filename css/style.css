@@ -1,0 +1,617 @@
+  body {
+   -webkit-font-smoothing: antialiased;
+   background-color: #ffffff;
+   color: #5c6670;
+   line-height: 1.5;
+   padding-top:75px;
+ }
+
+ body, html {
+   /*padding:0;*/
+   /*margin:0;*/
+   /*width:100%;*/
+   /*height:100%;*/
+   font-size:17px;
+   font-family: 'museo-sans',arial,sans-serif;
+   font-weight: 300;
+
+ }
+
+ a {
+  color: #f26322;
+  text-decoration: dotted !important;
+}
+
+a:hover {
+  color:#f26322;
+}
+
+h1, h2, h3{
+  color:#f26322;
+}
+
+
+/* ============ Backgrounds =========== */
+
+.referal-program-background {
+  background-image: url('../img/referral-program-header.jpg');
+  background-size:cover;
+}
+
+.right-family-background2 {
+  /*background-image:url('../../img/backgrounds/family-background-2.jpg');*/
+  background-size:cover;
+  min-height:600px;
+  background-repeat: no-repeat;
+}
+
+.right-sungevity-employee-background {
+  /*background-image:url('../../img/backgrounds/sungevity-employee-background.jpg');*/
+  background-size:cover;
+  min-height:600px;
+  background-repeat: no-repeat;   
+}
+
+.right-phone-save-background {
+  /*background-image:url('../../img/backgrounds/phone-save.background.jpg');*/
+  background-size:contain;
+  background-position:right;
+  background-repeat: no-repeat;
+  min-height:600px;
+}
+
+.sungevity-energy-system-background {
+  background-image:url('/wp-content/themes/sungevity/img/backgrounds/solar-energy-system.jpg'); 
+  background-size:cover;
+}
+
+.sungevity-installer-background {
+  /*background-image:url('../../img/backgrounds/sungevity-installer-background.jpg'); */
+  background-size:cover;
+}
+
+.sungevity-worker-background {
+  /*background-image:url('../../img/backgrounds/sungevity-solar-installer.jpg'); */
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.sungevity-commercial-background {
+ background-size:cover;
+ background-position:center;
+ background-repeat: no-repeat;
+ background-position: left; 
+ min-height: 400px;
+}
+
+.solar-panel-background {
+  /*background-image:url('../../img/backgrounds/solar-panel-background.jpg'); */
+  background-size:cover;
+}
+
+.orange-logo-background {
+  /*background-image:url('../../img/backgrounds/lg-burst-background.png'); */
+  background-size:cover;
+  background-color:#f26322; 
+  color:white;
+}
+
+.sungevity-employee-background {
+  /*background-image:url('../../img/sungevity-employee.jpg');*/
+  background-size:cover;
+}
+
+.sungevity-financing-options-background {
+  background-image:url('/wp-content/themes/sungevity/img/backgrounds/financing-dark-hero.png');
+  background-size:cover;
+}
+
+.about-us-hero-background {
+  background-image:url('/wp-content/themes/sungevity/img/backgrounds/about-us-overlay.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  min-height: 500px;
+}
+
+.why-us {
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+.city-page-header {
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../img/city-page-header.jpg');
+  /*background-image:url('../img/city-page-header.jpg');*/
+  min-height:600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  color:black !important;
+  text-align: center !important;
+}
+
+.house_footer {
+  background-image: url('/wp-content/themes/sungevity/img/backgrounds/solar-fin.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90px;
+  opacity: .9;
+  z-index:6;
+  position:fixed;
+  width:100%;
+  bottom:0;
+}
+
+
+/* ============ Navigation ============ */
+.logo-container {
+	max-height:48px;
+	line-height:48px;
+	/*margin:0;*/
+	padding:6px 0;
+	width:150px;
+	/*margin-right:30px;*/
+	/*margin-left:80px;*/
+	/*margin-right: 3.74426%;
+	width: 22.1918%;*/
+}
+
+.nav-link-list li {
+	display: inline-block;
+	padding: 0 0.5em;
+	margin: 0 25px 0 0;
+	line-height: 49px;
+}
+
+.dropdown-menu {
+	background-color:#f1f1f1 !important;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
+}
+
+.dropdown:hover > .dropdown-menu {
+	display: block;
+}
+.dropdown > .dropdown-toggle:active {
+	/*Without this, clicking will make it sticky*/
+	pointer-events: none;
+}
+.fade-scale {
+  transform: scale(0);
+  opacity: 0;
+  -webkit-transition: all .25s linear;
+  -o-transition: all .25s linear;
+  transition: all .25s linear;
+}
+
+.fade-scale.in {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* ============ Modal =========== */
+.modal-dialog-full-width {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width:none !important;
+
+}
+
+.modal-content-full-width  {
+  height: auto !important;
+  min-height: 100% !important;
+  border-radius: 0 !important;
+  background-color: white !important 
+}
+
+.modal-header-full-width  {
+  border-bottom: 1px solid #9ea2a2 !important;
+}
+
+.modal-footer-full-width  {
+  border-top: 1px solid white !important;
+}
+
+.glass-container {
+  /* width: 30rem; */
+  /* height: 20rem; */
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+}
+
+.form_disclaimer {
+  background-color: white !important;
+  opacity: .9;
+  padding-top: 15px;
+  padding-left: 15px;
+  color: #666;
+  font-size: 11px;
+  text-align: left;
+  line-height: 1.42857143;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  padding-right: 60px;
+}
+
+/* ============ Text ============ */
+
+.fancy-text {
+	color: white;
+	align-self: center;
+	text-align: center;
+	margin-bottom: -4px;
+        /* Fallback: Set a background color.
+        /* background-color: orange; */
+
+        /* Create the gradient. */
+        background-image: linear-gradient(45deg, #f3ec78, #f26322);
+
+        /* Set the background size and repeat properties. */
+        background-size: 100%;
+        background-repeat: repeat;
+
+        /* Use the text as a mask for the background. */
+        /* This will show the gradient as a text color rather than element bg. */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+      }
+
+      /* ============ Buttons ============ */
+      .btn-orange {
+       background-color:#f26322;
+       border-color:#f26322;
+       color:#ffffff;
+       border: 1px solid #f26322;
+       /*padding: 1.125em 2.875em;*/
+     }
+
+     .btn-orange:hover {
+       /*background-color:#ffffff;*/
+       /*border-color:#f26322;*/
+       color:#ffffff;
+     }
+
+     /* ================== Forms ==================== */
+
+     .form-control {
+      border: 1px solid #f26322 !important;
+    }
+
+    .main_nav_form {
+     /*background-color:#f26322;*/
+     /*margin-top:15px;*/
+     margin-bottom:15px;
+     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;
+     border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+   }
+
+   #collapseForm {
+    /*background-color:lightgrey;*/
+    background-color: #c3cbdc;
+    background-image: linear-gradient(147deg, #c3cbdc 0%, #edf1f4 74%);
+
+
+    padding-bottom: 35px;
+  }
+  /* Style the form */
+  #regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+  }
+
+  /* Style the input fields */
+  input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+  }
+
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    background-color: #ffdddd;
+  }
+
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }
+
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+
+  /* Mark the active step: */
+  .step.active {
+    opacity: 1;
+  }
+
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #f26322;
+  }
+
+  /* ============ Header Video ============ */
+  .video-header {
+   position: relative;
+   background-color: black;
+   height: 95vh;
+   min-height: 30rem;
+   width: 100%;
+   overflow: hidden;
+ }
+
+ .video-header h2 {
+   font-size:30px;
+ }
+
+ .video-header video {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   min-width: 150%;
+   min-height: 150%;
+   width: auto;
+   height: auto;
+   z-index: 0;
+   -ms-transform: translateX(-50%) translateY(-50%);
+   -moz-transform: translateX(-50%) translateY(-50%);
+   -webkit-transform: translateX(-50%) translateY(-50%);
+   transform: translateX(-50%) translateY(-50%);
+ }
+
+ .video-header .container {
+   position: relative;
+   z-index: 2;
+ }
+
+ .video-header .overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background-color: black;
+   opacity: 0.5;
+   z-index: 1;
+ }
+
+
+ /* ============ Footer ============ */
+ .footer {
+   /*background-color:#dde1e9;*/
+	/*background-image: url('../img/backgrounds/wave-grey3.svg');
+	background-repeat: no-repeat;*/
+	/*background-color: #ffffff;*/
+	/*background-image: linear-gradient(315deg, #ffffff 0%, #dde1e9 74%);*/
+	/*border-top: 2px solid #dde1e9;*/
+	/*box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) !important;*/
+
+	/*background-color: #f1dfd1;*/
+	/*background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);*/
+	padding-top:55px;
+	padding-bottom:55px;
+  /*border-top:16px solid black;*/
+  /*border-bottom:10px solid black;*/
+}
+
+.footer-ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.footer h4 {
+	color: #333e48;
+	font-size: .875em;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+	font-weight: 600;
+}
+
+.footer a {
+	/*color: #5c6670;*/
+  color:#f8f8ff;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: .875em;
+  font-family: 'myriad-pro',arial,sans-serif;
+}
+
+ul.footer-ul li {
+	padding-bottom:10px;
+	/*font-size: .875em;*/
+}
+/*
+.footer a {
+    color: rgba(255,255,255,.5)!important;
+}
+*/
+.footer h4 {
+  color:white;
+}
+
+.footer hr {
+  background-color:white;
+}
+
+.about_left {
+  margin-left:220px;
+}
+
+.about_left h2 {
+  color:#f26322;
+  line-height: 2.5em;
+
+}
+
+.move_left {
+  margin-left:220px;
+}
+
+.width-50 {
+  width:50%;
+}
+
+/*============ Special Classes ===============*/
+
+.content-visibility {
+  content-visibility: auto;
+  contain-intrinsic-size: 1000px;   
+}
+
+#financing {
+  background-color:white;
+}
+
+
+#footer {
+ content-visibility: auto;
+ contain-intrinsic-size: 535px; 
+}
+
+.orange {
+  color: #f26322;
+}
+
+.orange-background {
+  background-color:#f26322 !important;
+}
+
+.grey-top-border {
+  border-top:1px solid lightgrey;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card-deck .card {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.card .card-footer {
+  background-color:white;
+  border-top:none;
+}
+
+.dark-circle {
+  color: white;
+  background-color: #464D50;
+  border-radius: 50%;
+  padding-top: 3px;
+  padding-bottom: 4px;
+  padding-left: 9px;
+  padding-right: 9px;
+  font-size: 23px;
+}
+
+.dotted-divider-vertical {
+  border-left: 1px dotted lightgrey;
+  height:100%
+}
+
+/* Social Icon Size */
+
+.fa-twitter-square {
+  font-size:3.0em !important;
+}
+
+.fa-facebook-square {
+  font-size:3.0em !important;
+}
+
+.fa-linkedin-square {
+  font-size:3.0em !important;
+}
+
+
+
+@media (max-width: 576px) { 
+
+  .about_left {
+    margin-left:0px;
+  }
+
+  .about_left h2 {
+    font-size: 29px;
+    text-align: center;
+    line-height: 2.5em;
+  }
+
+  .move_left {
+    margin-left:0px;
+  }
+
+  .width-50 {
+    width:100%;
+  }
+
+  .city-page-header {
+    background-image:none;
+    background-color:#f26322 !important;
+    color:white !important;
+  }
+  .city-page-header h1 {
+    color:white;
+  }
+
+  .city-page-header h2 {
+    padding-top:15px;
+    color:white;
+  }
+
+  .house_footer {
+    background-image:none;
+    background-color:#f26322 !important;
+  }
+
+  .house_footer h4 {
+    font-size:22px !important;
+  }
+
+
+}
+
+
+
+
+@media (pointer: coarse) and (hover: none) {
+  .video-header {
+    background: url('../video/solar-house-dark3.mp4') black no-repeat center center scroll;
+  }
+  .video-header video {
+    /*display: none;*/
+  }
+  .video-header h1 {
+    font-size:50px;
+    margin-bottom:20px;
+  }
+/*    .about_left {
+        margin-left:0px;
+        }*/
+      }

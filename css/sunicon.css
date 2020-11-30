@@ -1,0 +1,2269 @@
+@font-face {
+    font-family: 'sunicons';
+    src:    url('https://s3.amazonaws.com/components.sungevity.com/assets/sunicons.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.sun {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'sunicons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.sun-chat-contact-support-help-conversation-fill:before {
+    content: "\e902";
+}
+.sun-heart-fill:before {
+    content: "\e90d";
+}
+.sun-heart:before {
+    content: "\e914";
+}
+.sun-home-solar-fill:before {
+    content: "\e918";
+}
+.sun-home-solar:before {
+    content: "\e91d";
+}
+.sun-phone-wireless:before {
+    content: "\e922";
+}
+.sun-plug-power-electricity-fill:before {
+    content: "\e937";
+}
+.sun-users-profile-group-two-fill:before {
+    content: "\e938";
+}
+.sun-wrench-screwdriver:before {
+    content: "\e939";
+}
+.sun-md-done:before {
+    content: "\e901";
+}
+.sun-d-dimensions-object-coordinate-system:before {
+    content: "\e900";
+}
+.sun-abacus-math-calculator-school:before {
+    content: "\e903";
+}
+.sun-about-question-faq-help:before {
+    content: "\e904";
+}
+.sun-acorn-forest-fruit:before {
+    content: "\e905";
+}
+.sun-add-more-layers-slides:before {
+    content: "\e906";
+}
+.sun-address-book-contacts:before {
+    content: "\e907";
+}
+.sun-air-conditioner-temperature:before {
+    content: "\e908";
+}
+.sun-air-ventilator-flow:before {
+    content: "\e909";
+}
+.sun-airplay-screen-sharing:before {
+    content: "\e90a";
+}
+.sun-alarm-clock-ringer-time-morning:before {
+    content: "\e90b";
+}
+.sun-album-picture-image-photo:before {
+    content: "\e90c";
+}
+.sun-analytics-graph-line-statistics-presentation-keynote:before {
+    content: "\e90e";
+}
+.sun-analytics-graph-line-statistics-stock:before {
+    content: "\e90f";
+}
+.sun-analytics-graph-line-statistics:before {
+    content: "\e910";
+}
+.sun-analytics-presentation-statistics-graph:before {
+    content: "\e911";
+}
+.sun-anchor-ship-sea-naval:before {
+    content: "\e912";
+}
+.sun-ancient-egypt-pyramid:before {
+    content: "\e913";
+}
+.sun-anti-virus-protection-shield:before {
+    content: "\e915";
+}
+.sun-apple-connect:before {
+    content: "\e916";
+}
+.sun-apple-fruit:before {
+    content: "\e917";
+}
+.sun-apple-watch-heart-fitness-running-tracker:before {
+    content: "\e919";
+}
+.sun-apple-watch-music-song-fitness:before {
+    content: "\e91a";
+}
+.sun-apron-cook-chef-kitchen:before {
+    content: "\e91b";
+}
+.sun-archery-bow:before {
+    content: "\e91c";
+}
+.sun-archive-open-slide:before {
+    content: "\e91e";
+}
+.sun-archive-shelves-sideboard:before {
+    content: "\e91f";
+}
+.sun-archive-shipping-box-delivery:before {
+    content: "\e920";
+}
+.sun-arm-chair-office:before {
+    content: "\e921";
+}
+.sun-arrow-back-left:before {
+    content: "\e923";
+}
+.sun-arrow-back-left2:before {
+    content: "\e924";
+}
+.sun-arrow-back-undo:before {
+    content: "\e925";
+}
+.sun-arrow-next-right:before {
+    content: "\e926";
+}
+.sun-arrow-right-next:before {
+    content: "\e927";
+}
+.sun-arrow-rotate-left-counter-clockwise:before {
+    content: "\e928";
+}
+.sun-arrow-rotate-right-clockwise:before {
+    content: "\e929";
+}
+.sun-arrows-curves:before {
+    content: "\e92a";
+}
+.sun-arrows-directions-left-right:before {
+    content: "\e92b";
+}
+.sun-arrows-divide-split:before {
+    content: "\e92c";
+}
+.sun-arrows-fast-forward:before {
+    content: "\e92d";
+}
+.sun-arrows-play-repeat:before {
+    content: "\e92e";
+}
+.sun-arrows-play-shuffle:before {
+    content: "\e92f";
+}
+.sun-atm-machine-withdrawal-credit-card:before {
+    content: "\e930";
+}
+.sun-atm-passcode-keypad-password-access:before {
+    content: "\e931";
+}
+.sun-atom-nuclear-learning-physics:before {
+    content: "\e932";
+}
+.sun-attachment:before {
+    content: "\e933";
+}
+.sun-attention-error-alert-caution:before {
+    content: "\e934";
+}
+.sun-award-achievement-prize-medal:before {
+    content: "\e935";
+}
+.sun-back-delete-backspace:before {
+    content: "\e936";
+}
+.sun-bank-pantheon:before {
+    content: "\e93a";
+}
+.sun-basecamp-alps-mountains-cabin:before {
+    content: "\e93e";
+}
+.sun-basket-ball-sports:before {
+    content: "\e93f";
+}
+.sun-bath-shower:before {
+    content: "\e940";
+}
+.sun-bathtub-shower:before {
+    content: "\e941";
+}
+.sun-battery-charge-empty:before {
+    content: "\e943";
+}
+.sun-battery-charge-full:before {
+    content: "\e944";
+}
+.sun-battery-charge-half-empty:before {
+    content: "\e945";
+}
+.sun-battery-charging-energy:before {
+    content: "\e946";
+}
+.sun-beamer-presentation-projector:before {
+    content: "\e947";
+}
+.sun-bed:before {
+    content: "\e948";
+}
+.sun-beer:before {
+    content: "\e949";
+}
+.sun-big-spoon-soup-kitchen-utensils:before {
+    content: "\e94c";
+}
+.sun-bike-bycicle-transport:before {
+    content: "\e94d";
+}
+.sun-bin-trash-recycle-delete-garbage-empty:before {
+    content: "\e950";
+}
+.sun-bin-trash-recycle-delete-garbage-full:before {
+    content: "\e951";
+}
+.sun-bin-trash-recycle-delete-garbage:before {
+    content: "\e952";
+}
+.sun-bird-house-twitter:before {
+    content: "\e953";
+}
+.sun-bitcoin-money:before {
+    content: "\e954";
+}
+.sun-bitcoin-wallet-payment:before {
+    content: "\e955";
+}
+.sun-blood-infusion:before {
+    content: "\e956";
+}
+.sun-bluetooth:before {
+    content: "\e957";
+}
+.sun-body-weight-fitness-health-fat:before {
+    content: "\e958";
+}
+.sun-bonsai-tree-plant-green:before {
+    content: "\e95a";
+}
+.sun-book-reading-read-bookmark:before {
+    content: "\e95b";
+}
+.sun-book-reading-read-manual:before {
+    content: "\e95c";
+}
+.sun-book-wall-shelf:before {
+    content: "\e95d";
+}
+.sun-book-writing-reading-read-manual:before {
+    content: "\e95e";
+}
+.sun-bookmark-tag:before {
+    content: "\e95f";
+}
+.sun-bookmarks-reading-book:before {
+    content: "\e960";
+}
+.sun-bookshelf-sideboard:before {
+    content: "\e961";
+}
+.sun-box-clipboard:before {
+    content: "\e965";
+}
+.sun-box-load-package-module:before {
+    content: "\e966";
+}
+.sun-box-shipping-modules:before {
+    content: "\e967";
+}
+.sun-brain-thinking-mind-knowledge:before {
+    content: "\e968";
+}
+.sun-bullet-list-view:before {
+    content: "\e969";
+}
+.sun-bullets-list-radiobuttons:before {
+    content: "\e96a";
+}
+.sun-bullets-list:before {
+    content: "\e96b";
+}
+.sun-bus-transport:before {
+    content: "\e96c";
+}
+.sun-business-handshake-deal-contract-sign:before {
+    content: "\e96d";
+}
+.sun-business-idea:before {
+    content: "\e96e";
+}
+.sun-business-suitcase:before {
+    content: "\e96f";
+}
+.sun-business-tie-user-profile-avatar-man-male:before {
+    content: "\e970";
+}
+.sun-button:before {
+    content: "\e971";
+}
+.sun-calculator:before {
+    content: "\e973";
+}
+.sun-calendar-month-day-planner-events:before {
+    content: "\e974";
+}
+.sun-calendar-month-day-planner:before {
+    content: "\e975";
+}
+.sun-camera-setting-close-up-macro:before {
+    content: "\e976";
+}
+.sun-camping-director-fisherman-chair:before {
+    content: "\e97a";
+}
+.sun-cap-hat-beanie:before {
+    content: "\e97f";
+}
+.sun-car-battery-electricity:before {
+    content: "\e980";
+}
+.sun-car-brakes-check-safety-danger:before {
+    content: "\e981";
+}
+.sun-car-garage-house-home:before {
+    content: "\e982";
+}
+.sun-car-garage:before {
+    content: "\e983";
+}
+.sun-car-machine-cooling-water-temperature:before {
+    content: "\e985";
+}
+.sun-car-manual-gearbox:before {
+    content: "\e988";
+}
+.sun-car-transport-vehicle:before {
+    content: "\e989";
+}
+.sun-car-travel-road-trip:before {
+    content: "\e98a";
+}
+.sun-car-turn-sign-right-left:before {
+    content: "\e98b";
+}
+.sun-car-wash:before {
+    content: "\e98c";
+}
+.sun-car-windshield-water:before {
+    content: "\e98d";
+}
+.sun-cards-playing-poker-casino:before {
+    content: "\e98e";
+}
+.sun-cash-register-payment:before {
+    content: "\e991";
+}
+.sun-cd-dvd-disc-software:before {
+    content: "\e993";
+}
+.sun-chat-contact-support-help-conversation:before {
+    content: "\e997";
+}
+.sun-chat-discussion-yes-no-pro-contra-conversation:before {
+    content: "\e998";
+}
+.sun-chat-message-comment-bubble-add-new:before {
+    content: "\e999";
+}
+.sun-chat-message-comment-bubble-cloud:before {
+    content: "\e99a";
+}
+.sun-chat-message-comment-bubble-like-favorite:before {
+    content: "\e99b";
+}
+.sun-chat-message-comment-bubble-reply-quote:before {
+    content: "\e99c";
+}
+.sun-chat-message-comment-bubble-tweet-twitter:before {
+    content: "\e99d";
+}
+.sun-chat-message-comment-bubble-typing:before {
+    content: "\e99e";
+}
+.sun-chat-message-comment-bubble:before {
+    content: "\e99f";
+}
+.sun-chat-message-discussion-bubble-conversation:before {
+    content: "\e9a0";
+}
+.sun-chat-message-discussion-bubble-reply-conversation:before {
+    content: "\e9a1";
+}
+.sun-chat-message-quote-reply:before {
+    content: "\e9a2";
+}
+.sun-check-ok-yes-no:before {
+    content: "\e9a3";
+}
+.sun-checkbox-ok-successful:before {
+    content: "\e9a4";
+}
+.sun-checkboxes-lines-check:before {
+    content: "\e9a5";
+}
+.sun-cheese-knife-slicer-kitchen-utensils:before {
+    content: "\e9a6";
+}
+.sun-chest-drawers-sideboard:before {
+    content: "\e9ab";
+}
+.sun-city-flat-homes:before {
+    content: "\e9b2";
+}
+.sun-city-house-home:before {
+    content: "\e9b3";
+}
+.sun-city-skyscraper-flat:before {
+    content: "\e9b4";
+}
+.sun-clipboard-box-archive-documents:before {
+    content: "\e9b6";
+}
+.sun-cloud-sync-error:before {
+    content: "\e9b7";
+}
+.sun-cloud-sync:before {
+    content: "\e9b8";
+}
+.sun-cloud-upload-backup:before {
+    content: "\e9b9";
+}
+.sun-code-html:before {
+    content: "\e9ba";
+}
+.sun-coin-payment-chip:before {
+    content: "\e9bf";
+}
+.sun-color-wheel-rgb:before {
+    content: "\e9c0";
+}
+.sun-compose-write-pencil-new:before {
+    content: "\e9c1";
+}
+.sun-computer-desktop:before {
+    content: "\e9c2";
+}
+.sun-computer-laptop-analytics-graph:before {
+    content: "\e9c3";
+}
+.sun-computer-laptop-download:before {
+    content: "\e9c4";
+}
+.sun-computer-laptop-user-login:before {
+    content: "\e9c5";
+}
+.sun-computer-laptop-website-url-www:before {
+    content: "\e9c6";
+}
+.sun-computer-screen-cloud:before {
+    content: "\e9c7";
+}
+.sun-computer-screen-locked-password-protected-security:before {
+    content: "\e9c8";
+}
+.sun-computer-screen-settings-preferences:before {
+    content: "\e9c9";
+}
+.sun-computer-screen-users-profile:before {
+    content: "\e9ca";
+}
+.sun-computer-screen:before {
+    content: "\e9cb";
+}
+.sun-connection-wireless:before {
+    content: "\e9cc";
+}
+.sun-connection-world-internet-worldwide:before {
+    content: "\e9cd";
+}
+.sun-construction-worker-site-helmet-safety:before {
+    content: "\e9ce";
+}
+.sun-contact-archive-identity-card-photo-user-profile:before {
+    content: "\e9cf";
+}
+.sun-copy:before {
+    content: "\e9d5";
+}
+.sun-credit-card:before {
+    content: "\e9d7";
+}
+.sun-crop-image:before {
+    content: "\e9d8";
+}
+.sun-cup-place-winner-award-prize-achievement:before {
+    content: "\e9d9";
+}
+.sun-cut-knife:before {
+    content: "\e9db";
+}
+.sun-cut-scissors:before {
+    content: "\e9dc";
+}
+.sun-database-raid:before {
+    content: "\e9de";
+}
+.sun-database-remote:before {
+    content: "\e9df";
+}
+.sun-database:before {
+    content: "\e9e0";
+}
+.sun-delete-exit-remove-close:before {
+    content: "\e9e1";
+}
+.sun-delete-remove-exit-close-checkbox:before {
+    content: "\e9e2";
+}
+.sun-delivery-van-shipping-transport:before {
+    content: "\e9e3";
+}
+.sun-delivery-van-shipping:before {
+    content: "\e9e4";
+}
+.sun-diamond-prize-award-jewellery-ring:before {
+    content: "\e9e6";
+}
+.sun-disc-floppy-save-software:before {
+    content: "\e9e7";
+}
+.sun-dislike-thumb-down-vote:before {
+    content: "\e9e8";
+}
+.sun-document-file-cloud-sync-backup:before {
+    content: "\e9ec";
+}
+.sun-document-file-delete-remove-error:before {
+    content: "\e9ed";
+}
+.sun-document-file-paper-text-article-blog-template:before {
+    content: "\e9ee";
+}
+.sun-document-file-paper-text:before {
+    content: "\e9ef";
+}
+.sun-document-file-paper:before {
+    content: "\e9f0";
+}
+.sun-document-file-pdf-adobe-acrobat:before {
+    content: "\e9f1";
+}
+.sun-document-file-word-office-doc-text:before {
+    content: "\e9f2";
+}
+.sun-document-file-zip-archive-compressed-rar:before {
+    content: "\e9f3";
+}
+.sun-documents-files-paper-text-archive-copy:before {
+    content: "\e9f4";
+}
+.sun-domino-numbers-game:before {
+    content: "\e9f6";
+}
+.sun-dont-touch-dangerous-stop-caution:before {
+    content: "\e9f7";
+}
+.sun-door-exit-emergency-logout:before {
+    content: "\e9f9";
+}
+.sun-down-vote-minus-lower:before {
+    content: "\e9fa";
+}
+.sun-down:before {
+    content: "\e9fb";
+}
+.sun-download-clipboard-box:before {
+    content: "\e9fc";
+}
+.sun-download-cloud-file-sync:before {
+    content: "\e9fd";
+}
+.sun-download-computer:before {
+    content: "\e9fe";
+}
+.sun-download-file-computer-drive:before {
+    content: "\e9ff";
+}
+.sun-download-file:before {
+    content: "\ea00";
+}
+.sun-download:before {
+    content: "\ea01";
+}
+.sun-drawing-board-canvas-table:before {
+    content: "\ea02";
+}
+.sun-dropdown-menu-select-option-form:before {
+    content: "\ea04";
+}
+.sun-dubai-hotel-burj-al-arab:before {
+    content: "\ea06";
+}
+.sun-ecology-car-clean-green-energy:before {
+    content: "\ea08";
+}
+.sun-ecology-earth-clean-green-energy:before {
+    content: "\ea09";
+}
+.sun-ecology-earth-polution-efficiency-green-energy:before {
+    content: "\ea0a";
+}
+.sun-ecology-environment-forest-tree-green-park:before {
+    content: "\ea0b";
+}
+.sun-ecology-environment-green:before {
+    content: "\ea0c";
+}
+.sun-egg-timer-cooking-kitchen-utensils:before {
+    content: "\ea0e";
+}
+.sun-electricity-high-voltage-landline:before {
+    content: "\ea0f";
+}
+.sun-electro-hybrid-tesla-ecology-car-clean-green-energy:before {
+    content: "\ea10";
+}
+.sun-elevator-up-down:before {
+    content: "\ea11";
+}
+.sun-email-at-sign:before {
+    content: "\ea12";
+}
+.sun-email-attachment:before {
+    content: "\ea13";
+}
+.sun-email-mail-post-at:before {
+    content: "\ea14";
+}
+.sun-email-mail-post-card-sent-successful:before {
+    content: "\ea15";
+}
+.sun-email-mail-post-card:before {
+    content: "\ea16";
+}
+.sun-email-mail-post-open:before {
+    content: "\ea17";
+}
+.sun-email-mail-post-send:before {
+    content: "\ea18";
+}
+.sun-energy-efficiency-saving-light:before {
+    content: "\ea19";
+}
+.sun-error-warning-alert-attention:before {
+    content: "\ea1a";
+}
+.sun-error-warning-danger-stop-delete-exit:before {
+    content: "\ea1b";
+}
+.sun-error-warning-danger-stop:before {
+    content: "\ea1c";
+}
+.sun-exit-logout-door-emergency-outside:before {
+    content: "\ea1d";
+}
+.sun-expand-move-window-full-screen:before {
+    content: "\ea1e";
+}
+.sun-export-file:before {
+    content: "\ea1f";
+}
+.sun-eye-visibility-hide-invisible:before {
+    content: "\ea20";
+}
+.sun-eye-visibility-show-visible:before {
+    content: "\ea21";
+}
+.sun-eyedropper-color:before {
+    content: "\ea22";
+}
+.sun-factory-work:before {
+    content: "\ea23";
+}
+.sun-family-relationship-father-mother-child:before {
+    content: "\ea24";
+}
+.sun-family-relationship-mother-child:before {
+    content: "\ea25";
+}
+.sun-fast-delivery-van-shipping-transport:before {
+    content: "\ea26";
+}
+.sun-favorite-place-map:before {
+    content: "\ea27";
+}
+.sun-file-attachment:before {
+    content: "\ea29";
+}
+.sun-file-code-programming-dev-binary:before {
+    content: "\ea2a";
+}
+.sun-file-document-legal-text:before {
+    content: "\ea2b";
+}
+.sun-file-preferences-settings:before {
+    content: "\ea2c";
+}
+.sun-file-profile-user-personal:before {
+    content: "\ea2d";
+}
+.sun-file-protected-password-security:before {
+    content: "\ea2e";
+}
+.sun-file-search-find-replace-zoom-view:before {
+    content: "\ea2f";
+}
+.sun-file-table:before {
+    content: "\ea30";
+}
+.sun-file-text-long:before {
+    content: "\ea31";
+}
+.sun-filter-funnel:before {
+    content: "\ea32";
+}
+.sun-fingerprint-iphone-scan-access:before {
+    content: "\ea33";
+}
+.sun-fingerprint-scan-security-access:before {
+    content: "\ea34";
+}
+.sun-fire-danger-hot-flammable:before {
+    content: "\ea35";
+}
+.sun-fire-extinguisher:before {
+    content: "\ea36";
+}
+.sun-fitness-cycling:before {
+    content: "\ea3c";
+}
+.sun-fitness-running-calories-training:before {
+    content: "\ea3d";
+}
+.sun-fitness-running:before {
+    content: "\ea3e";
+}
+.sun-fitness-weight-gym-lifting-bodybuilding-training:before {
+    content: "\ea3f";
+}
+.sun-flag:before {
+    content: "\ea40";
+}
+.sun-flight-airport-transport-travel:before {
+    content: "\ea42";
+}
+.sun-flight-arrival-airport-airplane:before {
+    content: "\ea43";
+}
+.sun-flight-departure-airport-airplane:before {
+    content: "\ea44";
+}
+.sun-flipflops:before {
+    content: "\ea45";
+}
+.sun-flower:before {
+    content: "\ea46";
+}
+.sun-flowers-plant:before {
+    content: "\ea47";
+}
+.sun-folder-cloud-sync-backup:before {
+    content: "\ea48";
+}
+.sun-folder-documents-revert-history:before {
+    content: "\ea49";
+}
+.sun-folder-files-documents:before {
+    content: "\ea4a";
+}
+.sun-folder-images-photos:before {
+    content: "\ea4b";
+}
+.sun-folder-open-full-documents:before {
+    content: "\ea4c";
+}
+.sun-folder-open:before {
+    content: "\ea4d";
+}
+.sun-folder-password-protected-secure-private:before {
+    content: "\ea4e";
+}
+.sun-folder-preferences-options-settings:before {
+    content: "\ea4f";
+}
+.sun-folder-upload:before {
+    content: "\ea50";
+}
+.sun-folder:before {
+    content: "\ea51";
+}
+.sun-font-file-ttf-otf-type-text:before {
+    content: "\ea52";
+}
+.sun-foot-shoe-steps:before {
+    content: "\ea53";
+}
+.sun-fountain-pen:before {
+    content: "\ea56";
+}
+.sun-fragile-delivery-shipping:before {
+    content: "\ea57";
+}
+.sun-fragile-shipping-box-delivery:before {
+    content: "\ea58";
+}
+.sun-free:before {
+    content: "\ea59";
+}
+.sun-fruit-ice-desert-glass:before {
+    content: "\ea5b";
+}
+.sun-fuel-petrol-tank-reserve-car:before {
+    content: "\ea5c";
+}
+.sun-full-shopping-cart-basket-store:before {
+    content: "\ea5d";
+}
+.sun-gamepad-video-game-playing:before {
+    content: "\ea5e";
+}
+.sun-gas-fuel-station:before {
+    content: "\ea5f";
+}
+.sun-gate-farm:before {
+    content: "\ea60";
+}
+.sun-gauge-car-dashboard-speedometer-odometer-speed:before {
+    content: "\ea61";
+}
+.sun-gauge-dashboard-empty:before {
+    content: "\ea62";
+}
+.sun-gauge-dashboard-full-fuel:before {
+    content: "\ea63";
+}
+.sun-gauge-dashboard-half:before {
+    content: "\ea64";
+}
+.sun-gauge-dashboard-speedometer-odometer-speed:before {
+    content: "\ea65";
+}
+.sun-gavel-hammer-law-judge-court:before {
+    content: "\ea66";
+}
+.sun-gift-wrapping:before {
+    content: "\ea67";
+}
+.sun-globus-world-travel-regional:before {
+    content: "\ea69";
+}
+.sun-golf-course-sports:before {
+    content: "\ea6b";
+}
+.sun-government-white-house-capitol:before {
+    content: "\ea6d";
+}
+.sun-graph-columns-drop-statistics:before {
+    content: "\ea6e";
+}
+.sun-graph-columns-growth-statistics:before {
+    content: "\ea6f";
+}
+.sun-graph-columns-statistics:before {
+    content: "\ea70";
+}
+.sun-graph-growth-money-stock-inflation:before {
+    content: "\ea71";
+}
+.sun-graph-line-chart-statistics:before {
+    content: "\ea72";
+}
+.sun-graph-pie-chart-statistics:before {
+    content: "\ea73";
+}
+.sun-grater-kitchen-utensils:before {
+    content: "\ea74";
+}
+.sun-grid-view:before {
+    content: "\ea75";
+}
+.sun-group-users-circle:before {
+    content: "\ea7a";
+}
+.sun-hammer-home-utilities:before {
+    content: "\ea7f";
+}
+.sun-hand-finger-show-left:before {
+    content: "\ea80";
+}
+.sun-hand-finger-show-right:before {
+    content: "\ea81";
+}
+.sun-hand-finger:before {
+    content: "\ea82";
+}
+.sun-hand-fingers-grab-touch:before {
+    content: "\ea83";
+}
+.sun-hand-one-finger-swipe-down-scroll:before {
+    content: "\ea84";
+}
+.sun-hand-one-finger-swipe-left:before {
+    content: "\ea85";
+}
+.sun-hand-one-finger-swipe-right:before {
+    content: "\ea86";
+}
+.sun-hand-one-finger-swipe-up-scroll:before {
+    content: "\ea87";
+}
+.sun-hand-papers-payment:before {
+    content: "\ea88";
+}
+.sun-hand-three-finger-swipe-left:before {
+    content: "\ea89";
+}
+.sun-hand-three-finger-swipe-right:before {
+    content: "\ea8a";
+}
+.sun-hand-three-finger-swipe-scroll-down:before {
+    content: "\ea8b";
+}
+.sun-hand-three-finger-swipe-scroll-up:before {
+    content: "\ea8c";
+}
+.sun-hand-touch-click-one-finger:before {
+    content: "\ea8d";
+}
+.sun-hand-touch-click-press-one-finger:before {
+    content: "\ea8e";
+}
+.sun-hand-touch-click-two-finger:before {
+    content: "\ea8f";
+}
+.sun-hand-touch-one-finger:before {
+    content: "\ea90";
+}
+.sun-hand-two-finger-pinch-zoom:before {
+    content: "\ea91";
+}
+.sun-hand-two-finger-swipe-down:before {
+    content: "\ea92";
+}
+.sun-hand-two-finger-swipe-left:before {
+    content: "\ea93";
+}
+.sun-hand-two-finger-swipe-right:before {
+    content: "\ea94";
+}
+.sun-hand-two-finger-swipe-up:before {
+    content: "\ea95";
+}
+.sun-hand-two-fingers:before {
+    content: "\ea96";
+}
+.sun-handicapped:before {
+    content: "\ea98";
+}
+.sun-hd-movie-video-camera-recording:before {
+    content: "\ea9a";
+}
+.sun-headphones-headset-speaker-beats:before {
+    content: "\ea9b";
+}
+.sun-heart-pulse-rate-health:before {
+    content: "\ea9c";
+}
+.sun-holiday-seaside-relax:before {
+    content: "\ea9e";
+}
+.sun-home-energy-efficient-eco:before {
+    content: "\ea9f";
+}
+.sun-home-energy-heating-cooling-aircondition:before {
+    content: "\eaa0";
+}
+.sun-home-energy-heating-winter-fire:before {
+    content: "\eaa1";
+}
+.sun-home-flat:before {
+    content: "\eaa2";
+}
+.sun-home-house:before {
+    content: "\eaa3";
+}
+.sun-home-plant-door:before {
+    content: "\eaa4";
+}
+.sun-home-wi-fi-wireless-network:before {
+    content: "\eaa5";
+}
+.sun-horseshoe-luck:before {
+    content: "\eaa7";
+}
+.sun-hospital-ill-medicine-doctor-ambulance:before {
+    content: "\eaa8";
+}
+.sun-hotel-room-tag:before {
+    content: "\eaaa";
+}
+.sun-ice-cream-corn:before {
+    content: "\eaab";
+}
+.sun-ice-cream-stick:before {
+    content: "\eaac";
+}
+.sun-identity-card-photo-tag-user-profile:before {
+    content: "\eaad";
+}
+.sun-identity-card-photo-user-profile:before {
+    content: "\eaae";
+}
+.sun-image-frame-crop-resize:before {
+    content: "\eaaf";
+}
+.sun-image-frame-size-rotate-resize:before {
+    content: "\eab0";
+}
+.sun-image-photo-file:before {
+    content: "\eab1";
+}
+.sun-import-file-load:before {
+    content: "\eab2";
+}
+.sun-information-about:before {
+    content: "\eab3";
+}
+.sun-information-desk-support-help:before {
+    content: "\eab4";
+}
+.sun-information-office-desk-support-help:before {
+    content: "\eab5";
+}
+.sun-input-box-text-edit:before {
+    content: "\eab6";
+}
+.sun-invoice-dollar-bill-payment:before {
+    content: "\eab7";
+}
+.sun-ipad-reading-mobile:before {
+    content: "\eab8";
+}
+.sun-ipad-tablet:before {
+    content: "\eab9";
+}
+.sun-iphone-mobile:before {
+    content: "\eaba";
+}
+.sun-ipod-music-playing-song:before {
+    content: "\eabb";
+}
+.sun-ketchup-fast-food:before {
+    content: "\eabc";
+}
+.sun-keyboard-connect:before {
+    content: "\eabd";
+}
+.sun-keyboard-wired:before {
+    content: "\eabe";
+}
+.sun-keyboard-wireless:before {
+    content: "\eabf";
+}
+.sun-layers-slides:before {
+    content: "\eac4";
+}
+.sun-layout-columns-sidemenu:before {
+    content: "\eac5";
+}
+.sun-layout-columns-three:before {
+    content: "\eac6";
+}
+.sun-layout-columns-title:before {
+    content: "\eac7";
+}
+.sun-layout-grid-view:before {
+    content: "\eac8";
+}
+.sun-leaf-nature-bio-green:before {
+    content: "\eac9";
+}
+.sun-leaf-plant-sprout-green:before {
+    content: "\eaca";
+}
+.sun-leaf-tree-forest:before {
+    content: "\eacb";
+}
+.sun-legal-document-law-license:before {
+    content: "\eacc";
+}
+.sun-lemon-lime-fruit:before {
+    content: "\eacd";
+}
+.sun-light-bulb-idea:before {
+    content: "\eace";
+}
+.sun-light-stand-arc:before {
+    content: "\eacf";
+}
+.sun-lighter-fire-zippo:before {
+    content: "\ead0";
+}
+.sun-lighthouse-shore-coast-sea:before {
+    content: "\ead1";
+}
+.sun-like-heart-favorite-rating-love:before {
+    content: "\ead2";
+}
+.sun-like-thumb-up-vote:before {
+    content: "\ead3";
+}
+.sun-line-structure-hierarchy:before {
+    content: "\ead4";
+}
+.sun-line-structure-relations-hierarchy:before {
+    content: "\ead5";
+}
+.sun-line-thumb-view:before {
+    content: "\ead6";
+}
+.sun-link-url-chain-hyperlink:before {
+    content: "\ead7";
+}
+.sun-list-bullets:before {
+    content: "\ead8";
+}
+.sun-list-checkbox-todo-done:before {
+    content: "\ead9";
+}
+.sun-list-checkbox-todo:before {
+    content: "\eada";
+}
+.sun-load-upload-clipboard-box:before {
+    content: "\eadb";
+}
+.sun-long-sleeves-shirt:before {
+    content: "\eadc";
+}
+.sun-magnet:before {
+    content: "\eade";
+}
+.sun-mail-post-box:before {
+    content: "\eadf";
+}
+.sun-map-path-navigation-location-treasure-hunt:before {
+    content: "\eae0";
+}
+.sun-map-path-navigation-location:before {
+    content: "\eae1";
+}
+.sun-map-travel-destination-location-world:before {
+    content: "\eae2";
+}
+.sun-map-travel-distance-directions:before {
+    content: "\eae3";
+}
+.sun-maple-leaf-canada-tree:before {
+    content: "\eae4";
+}
+.sun-marker-text:before {
+    content: "\eae6";
+}
+.sun-mathematics-calculate-add-subtract-divide-multiply:before {
+    content: "\eaea";
+}
+.sun-mathematics-curve-coordinate-system:before {
+    content: "\eaeb";
+}
+.sun-mathematics-root-equation:before {
+    content: "\eaec";
+}
+.sun-measuring-cup-kitchen-utensils:before {
+    content: "\eaee";
+}
+.sun-medal-award-rating-prize-achievement:before {
+    content: "\eaf0";
+}
+.sun-medal-first-place-winner-award-prize-achievement:before {
+    content: "\eaf1";
+}
+.sun-medicine-drugs-ill-pill:before {
+    content: "\eaf2";
+}
+.sun-meeting-presentation-speech-speaker-keynote:before {
+    content: "\eaf5";
+}
+.sun-men-women-toilet-wc-restroom:before {
+    content: "\eaf6";
+}
+.sun-menu-hambuger:before {
+    content: "\eaf7";
+}
+.sun-message-text-like-favorite:before {
+    content: "\eaf8";
+}
+.sun-microphone-mic-voice-recording:before {
+    content: "\eaf9";
+}
+.sun-minus-delete-remove:before {
+    content: "\eafd";
+}
+.sun-mobile-iphone:before {
+    content: "\eafe";
+}
+.sun-mobile-message-sms:before {
+    content: "\eaff";
+}
+.sun-mobile-phone-call-ringing-nfc:before {
+    content: "\eb00";
+}
+.sun-mobile-phone-call:before {
+    content: "\eb01";
+}
+.sun-module-connection-plugin:before {
+    content: "\eb02";
+}
+.sun-money-atm-machine-withdrawal-cash:before {
+    content: "\eb03";
+}
+.sun-money-bag-dollar:before {
+    content: "\eb04";
+}
+.sun-money-cash-coins-payment-dollars:before {
+    content: "\eb05";
+}
+.sun-money-cash-coins-payment:before {
+    content: "\eb06";
+}
+.sun-money-coins-jettons-chips:before {
+    content: "\eb07";
+}
+.sun-money-credit-card-coins-payment:before {
+    content: "\eb08";
+}
+.sun-money-currency-exchange:before {
+    content: "\eb09";
+}
+.sun-money-dollar-euro-currency-exchange-cash:before {
+    content: "\eb0a";
+}
+.sun-money-europe-euro:before {
+    content: "\eb0b";
+}
+.sun-money-payment-dollar-bag-cash:before {
+    content: "\eb0c";
+}
+.sun-money-payment-dollar-cash:before {
+    content: "\eb0d";
+}
+.sun-money-payment-dollar-coins-cash:before {
+    content: "\eb0e";
+}
+.sun-money-payment-dollar-coins-chips:before {
+    content: "\eb0f";
+}
+.sun-money-payment-dollars-coins-cash:before {
+    content: "\eb10";
+}
+.sun-money-payment-euro-bag-cash:before {
+    content: "\eb11";
+}
+.sun-money-usa-dollar:before {
+    content: "\eb12";
+}
+.sun-morning-alarm-clock:before {
+    content: "\eb13";
+}
+.sun-mountains-nature:before {
+    content: "\eb15";
+}
+.sun-mouse-wireless:before {
+    content: "\eb16";
+}
+.sun-mouse:before {
+    content: "\eb17";
+}
+.sun-movie-film-cinema:before {
+    content: "\eb18";
+}
+.sun-movie-recording-play-director-cut:before {
+    content: "\eb19";
+}
+.sun-movie-video-camera-recording:before {
+    content: "\eb1a";
+}
+.sun-music-cloud-song-streaming:before {
+    content: "\eb1d";
+}
+.sun-music-ipod-playing-player-playlist:before {
+    content: "\eb1e";
+}
+.sun-music-note-playing-sound-song:before {
+    content: "\eb1f";
+}
+.sun-music-playing-song-album:before {
+    content: "\eb20";
+}
+.sun-nature-green-sprout-plant:before {
+    content: "\eb22";
+}
+.sun-navigation-compass-orientation:before {
+    content: "\eb23";
+}
+.sun-navigation-location-drop-pin-map:before {
+    content: "\eb24";
+}
+.sun-network-connection-computer-folder:before {
+    content: "\eb26";
+}
+.sun-network-connection-computers:before {
+    content: "\eb27";
+}
+.sun-network-connection-lan-computers:before {
+    content: "\eb28";
+}
+.sun-network-lan-drives-backup-remote:before {
+    content: "\eb2a";
+}
+.sun-network-remote-folder-drive:before {
+    content: "\eb2b";
+}
+.sun-new:before {
+    content: "\eb2c";
+}
+.sun-newspaper-reading-news:before {
+    content: "\eb2d";
+}
+.sun-no-cash-payment-cashless:before {
+    content: "\eb2e";
+}
+.sun-no-cereals-grains:before {
+    content: "\eb2f";
+}
+.sun-no-dryer:before {
+    content: "\eb31";
+}
+.sun-not-available-broken-missing-picture-image-photo:before {
+    content: "\eb34";
+}
+.sun-notebook-paper-certificate:before {
+    content: "\eb35";
+}
+.sun-notebook-paper-todo:before {
+    content: "\eb36";
+}
+.sun-notebook-paper:before {
+    content: "\eb37";
+}
+.sun-notebook-to-do-bullets-list:before {
+    content: "\eb38";
+}
+.sun-notes-text-notebook:before {
+    content: "\eb39";
+}
+.sun-notification-badge:before {
+    content: "\eb3a";
+}
+.sun-office-archive:before {
+    content: "\eb3c";
+}
+.sun-office-trash-bin:before {
+    content: "\eb3d";
+}
+.sun-ok-successful-check:before {
+    content: "\eb3e";
+}
+.sun-on-off-switch-toggle-settings-preferences:before {
+    content: "\eb3f";
+}
+.sun-orange-lemon-lime-citrus-fruit:before {
+    content: "\eb40";
+}
+.sun-out-exit-emergency-logout:before {
+    content: "\eb42";
+}
+.sun-paint-brush-color:before {
+    content: "\eb45";
+}
+.sun-paint-brush:before {
+    content: "\eb46";
+}
+.sun-paint-bucket-color:before {
+    content: "\eb47";
+}
+.sun-pantone-color-guide-samples-book:before {
+    content: "\eb48";
+}
+.sun-paper-layers:before {
+    content: "\eb4a";
+}
+.sun-paper-role:before {
+    content: "\eb4b";
+}
+.sun-park-bench-rest-tree-forest:before {
+    content: "\eb4e";
+}
+.sun-park-tree-forest:before {
+    content: "\eb4f";
+}
+.sun-park-tree:before {
+    content: "\eb50";
+}
+.sun-passport-travel:before {
+    content: "\eb51";
+}
+.sun-paste-clipboard:before {
+    content: "\eb52";
+}
+.sun-path-travel-road:before {
+    content: "\eb53";
+}
+.sun-path-way-road-sign:before {
+    content: "\eb54";
+}
+.sun-pathfinder-shapes-exclude:before {
+    content: "\eb55";
+}
+.sun-pathfinder-shapes-intersect:before {
+    content: "\eb56";
+}
+.sun-pathfinder-shapes-minus-back:before {
+    content: "\eb57";
+}
+.sun-pathfinder-shapes-unite:before {
+    content: "\eb58";
+}
+.sun-payment-mobile-nfc-apple-pay-cashless:before {
+    content: "\eb59";
+}
+.sun-pear-fruit:before {
+    content: "\eb5a";
+}
+.sun-pen-writting-fontain:before {
+    content: "\eb5b";
+}
+.sun-pen:before {
+    content: "\eb5c";
+}
+.sun-pencil-ruler-drawing:before {
+    content: "\eb5d";
+}
+.sun-pencil-ruller-drawing:before {
+    content: "\eb5e";
+}
+.sun-pencil:before {
+    content: "\eb5f";
+}
+.sun-phone-call-contact:before {
+    content: "\eb61";
+}
+.sun-phone-call-number-dialer:before {
+    content: "\eb62";
+}
+.sun-phone-call-ringing:before {
+    content: "\eb63";
+}
+.sun-phone-contact:before {
+    content: "\eb64";
+}
+.sun-phone-hold-call:before {
+    content: "\eb65";
+}
+.sun-phone-mobile-contact:before {
+    content: "\eb66";
+}
+.sun-phone-telephone-contact:before {
+    content: "\eb67";
+}
+.sun-photo-camera-landscape:before {
+    content: "\eb68";
+}
+.sun-photo-camera-portrait:before {
+    content: "\eb69";
+}
+.sun-photo-camera-tripod-stand:before {
+    content: "\eb6a";
+}
+.sun-photo-camera-upload-computer:before {
+    content: "\eb6b";
+}
+.sun-photo-camera:before {
+    content: "\eb6c";
+}
+.sun-photo-wall-frame:before {
+    content: "\eb6d";
+}
+.sun-picture-image-photo-desk:before {
+    content: "\eb6e";
+}
+.sun-picture-image-photo:before {
+    content: "\eb6f";
+}
+.sun-pin-bookmark:before {
+    content: "\eb70";
+}
+.sun-plant-green-decoration:before {
+    content: "\eb75";
+}
+.sun-plant-green:before {
+    content: "\eb76";
+}
+.sun-plant-watering:before {
+    content: "\eb77";
+}
+.sun-play-movie-video-cinema-flm:before {
+    content: "\eb78";
+}
+.sun-playing-dice-casino:before {
+    content: "\eb79";
+}
+.sun-playlist-music-note-playing-sound-song:before {
+    content: "\eb7a";
+}
+.sun-plug-power-electricity:before {
+    content: "\eb7b";
+}
+.sun-plus-add-new:before {
+    content: "\eb7c";
+}
+.sun-plus-minus:before {
+    content: "\eb7d";
+}
+.sun-polaroid-picture-image-photo:before {
+    content: "\eb81";
+}
+.sun-polution-co2-emissions:before {
+    content: "\eb84";
+}
+.sun-polution-ecology-factory:before {
+    content: "\eb85";
+}
+.sun-polution-oil-refinery:before {
+    content: "\eb86";
+}
+.sun-polution-oil:before {
+    content: "\eb87";
+}
+.sun-popcorn-cinema:before {
+    content: "\eb89";
+}
+.sun-post-stamp:before {
+    content: "\eb8a";
+}
+.sun-pound-britain-currency-money:before {
+    content: "\eb8b";
+}
+.sun-power-on-off:before {
+    content: "\eb8c";
+}
+.sun-presentation-powerpoint-keynote-meeting:before {
+    content: "\eb8d";
+}
+.sun-presentation-video-play-beamer:before {
+    content: "\eb8e";
+}
+.sun-price-discount-sale-coupon:before {
+    content: "\eb8f";
+}
+.sun-printer:before {
+    content: "\eb90";
+}
+.sun-profile-user-search-find:before {
+    content: "\eb91";
+}
+.sun-puzzle-modules-build:before {
+    content: "\eb94";
+}
+.sun-radioactive-nuclear-danger-atom:before {
+    content: "\eb96";
+}
+.sun-radiobuttons-bullets-lines:before {
+    content: "\eb97";
+}
+.sun-reading-glasses:before {
+    content: "\eb99";
+}
+.sun-rechargeable-batteries-recycling:before {
+    content: "\eb9a";
+}
+.sun-reflect-horizontal:before {
+    content: "\eb9c";
+}
+.sun-reflect-vertical:before {
+    content: "\eb9d";
+}
+.sun-relationship-couple-love-break-divorce:before {
+    content: "\eb9e";
+}
+.sun-relationship-couple-love-marriage:before {
+    content: "\eb9f";
+}
+.sun-remote-control:before {
+    content: "\eba1";
+}
+.sun-remove-clear-text-style:before {
+    content: "\eba2";
+}
+.sun-resize-left-right:before {
+    content: "\eba3";
+}
+.sun-restaurant-menu-offer:before {
+    content: "\eba4";
+}
+.sun-ringer-alarm-sound-silent-mute:before {
+    content: "\eba5";
+}
+.sun-ringer-alarm-sound:before {
+    content: "\eba6";
+}
+.sun-ringer-silent-sleeping:before {
+    content: "\eba7";
+}
+.sun-ringer-sound-speaker-laud:before {
+    content: "\eba8";
+}
+.sun-ringer-sound-speaker-mute-silent:before {
+    content: "\eba9";
+}
+.sun-road-trafic:before {
+    content: "\ebab";
+}
+.sun-rolling-stairs-down:before {
+    content: "\ebad";
+}
+.sun-rolling-stairs-up:before {
+    content: "\ebae";
+}
+.sun-rotate-back-revert-undo:before {
+    content: "\ebb0";
+}
+.sun-rotate-clockwise:before {
+    content: "\ebb1";
+}
+.sun-rotate-sync:before {
+    content: "\ebb2";
+}
+.sun-rotation-lock:before {
+    content: "\ebb3";
+}
+.sun-ruller-dimension-length:before {
+    content: "\ebb4";
+}
+.sun-safe-security-lock:before {
+    content: "\ebb5";
+}
+.sun-safety-pin:before {
+    content: "\ebb6";
+}
+.sun-salad-bowl:before {
+    content: "\ebb7";
+}
+.sun-satellite-connection:before {
+    content: "\ebba";
+}
+.sun-saving-sale-discount-piggy-bank-pig:before {
+    content: "\ebbc";
+}
+.sun-scale-justice-law-attorney:before {
+    content: "\ebbd";
+}
+.sun-scale-weight-kitchen-appliances:before {
+    content: "\ebbe";
+}
+.sun-screen-analytics-line-graph-growth:before {
+    content: "\ebbf";
+}
+.sun-screen-analytics-line-graph:before {
+    content: "\ebc0";
+}
+.sun-screen-analytics-pie-graph:before {
+    content: "\ebc1";
+}
+.sun-screen-grid-images:before {
+    content: "\ebc2";
+}
+.sun-screen-ok-success:before {
+    content: "\ebc3";
+}
+.sun-screen-text-images-presentation:before {
+    content: "\ebc4";
+}
+.sun-screen-text:before {
+    content: "\ebc5";
+}
+.sun-search-find-files-folder:before {
+    content: "\ebc7";
+}
+.sun-search-find-zoom:before {
+    content: "\ebc8";
+}
+.sun-secret-passcode-keypad-password-access:before {
+    content: "\ebca";
+}
+.sun-security-lock-key:before {
+    content: "\ebcb";
+}
+.sun-security-lock-protected:before {
+    content: "\ebcc";
+}
+.sun-security-lock-unlocked:before {
+    content: "\ebcd";
+}
+.sun-security-lock:before {
+    content: "\ebce";
+}
+.sun-send-post-paper-plane:before {
+    content: "\ebcf";
+}
+.sun-server-hosting:before {
+    content: "\ebd0";
+}
+.sun-settings-gear-preferences:before {
+    content: "\ebd1";
+}
+.sun-settings-gears-preferences-gearbox:before {
+    content: "\ebd2";
+}
+.sun-settings-panel-equalizer-preferences:before {
+    content: "\ebd3";
+}
+.sun-settings-tools-configuration-preferences:before {
+    content: "\ebd4";
+}
+.sun-shape-new-discount:before {
+    content: "\ebd6";
+}
+.sun-share-facebook-social:before {
+    content: "\ebd7";
+}
+.sun-shipping-box-delivery:before {
+    content: "\ebd9";
+}
+.sun-shipping-cart-box-delivery:before {
+    content: "\ebda";
+}
+.sun-shopping-bag-sale-store:before {
+    content: "\ebdd";
+}
+.sun-shopping-cart-basket-store-successful:before {
+    content: "\ebde";
+}
+.sun-shopping-cart-basket-store:before {
+    content: "\ebdf";
+}
+.sun-shovel-ground:before {
+    content: "\ebe1";
+}
+.sun-sim-card:before {
+    content: "\ebe3";
+}
+.sun-slideshow:before {
+    content: "\ebe5";
+}
+.sun-smiley-happy-like-face:before {
+    content: "\ebe6";
+}
+.sun-smiley-neutral-face:before {
+    content: "\ebe7";
+}
+.sun-smiley-sad-face-unhappy:before {
+    content: "\ebe8";
+}
+.sun-snail-shell-house-nautilus:before {
+    content: "\ebeb";
+}
+.sun-socket-power-electricity-plug:before {
+    content: "\ebed";
+}
+.sun-software-bug-code-vulnerability:before {
+    content: "\ebf3";
+}
+.sun-space-moon-planet-galaxy-saturn:before {
+    content: "\ebf4";
+}
+.sun-spatula-kitchen-utensils:before {
+    content: "\ebf7";
+}
+.sun-speaker-music-sound-playing:before {
+    content: "\ebf8";
+}
+.sun-speech-presentation:before {
+    content: "\ebf9";
+}
+.sun-spray-color:before {
+    content: "\ebfa";
+}
+.sun-stamp:before {
+    content: "\ebfb";
+}
+.sun-star-favorite-rating:before {
+    content: "\ebfc";
+}
+.sun-star-rating-favorite-point:before {
+    content: "\ebfd";
+}
+.sun-steps-downstairs:before {
+    content: "\ec00";
+}
+.sun-steps-upstairs:before {
+    content: "\ec01";
+}
+.sun-stetoscope-doctor-hospital-ill:before {
+    content: "\ec02";
+}
+.sun-stock-money-growth-inflation:before {
+    content: "\ec03";
+}
+.sun-stopwatch-timer-running-time:before {
+    content: "\ec04";
+}
+.sun-stopwatch-training-time:before {
+    content: "\ec05";
+}
+.sun-store-shop-closed:before {
+    content: "\ec06";
+}
+.sun-store-shop-open-nonstop:before {
+    content: "\ec07";
+}
+.sun-store-shop-open:before {
+    content: "\ec08";
+}
+.sun-storehouse-storage:before {
+    content: "\ec0a";
+}
+.sun-structure-map-files:before {
+    content: "\ec0c";
+}
+.sun-structure-menu-submenu-navigation:before {
+    content: "\ec0d";
+}
+.sun-student-degree-science-university-school-graduate:before {
+    content: "\ec0e";
+}
+.sun-study-university-school-degree-graduate:before {
+    content: "\ec0f";
+}
+.sun-suitcase-lock-security:before {
+    content: "\ec11";
+}
+.sun-suitcase-tag-travel-baggage-luggage:before {
+    content: "\ec12";
+}
+.sun-suitcase-travel-baggage-luggage:before {
+    content: "\ec13";
+}
+.sun-sun-clouds-weather:before {
+    content: "\ec14";
+}
+.sun-sun-energy-power-electricity:before {
+    content: "\ec15";
+}
+.sun-sunglasses:before {
+    content: "\ec16";
+}
+.sun-support-female-phone:before {
+    content: "\ec17";
+}
+.sun-support-help-talk-call:before {
+    content: "\ec18";
+}
+.sun-support-male-phone:before {
+    content: "\ec1a";
+}
+.sun-swiss-army-knife-camping:before {
+    content: "\ec1b";
+}
+.sun-syndey-opera-australia:before {
+    content: "\ec1c";
+}
+.sun-table-desk:before {
+    content: "\ec1e";
+}
+.sun-tag-flight-baggage-luggage:before {
+    content: "\ec21";
+}
+.sun-tag-price-sale-discount:before {
+    content: "\ec22";
+}
+.sun-tag-price-sale:before {
+    content: "\ec23";
+}
+.sun-take-ticket-vote-box:before {
+    content: "\ec24";
+}
+.sun-take-ticket-waiting-room:before {
+    content: "\ec25";
+}
+.sun-take-ticket:before {
+    content: "\ec26";
+}
+.sun-target-circles:before {
+    content: "\ec27";
+}
+.sun-tea-coffee-hot:before {
+    content: "\ec28";
+}
+.sun-text-align-center-paragraph:before {
+    content: "\ec2b";
+}
+.sun-text-align-justify-last-line-left-paragraph:before {
+    content: "\ec2c";
+}
+.sun-text-align-justify-last-line-right-paragraph:before {
+    content: "\ec2d";
+}
+.sun-text-align-justify-paragraph:before {
+    content: "\ec2e";
+}
+.sun-text-align-left-indent:before {
+    content: "\ec2f";
+}
+.sun-text-align-left-paragraph:before {
+    content: "\ec30";
+}
+.sun-text-align-right-indent:before {
+    content: "\ec31";
+}
+.sun-text-align-right-paragraph:before {
+    content: "\ec32";
+}
+.sun-text-bullets-list:before {
+    content: "\ec33";
+}
+.sun-text-font-size-larger:before {
+    content: "\ec34";
+}
+.sun-text-font-size-smaller:before {
+    content: "\ec35";
+}
+.sun-text-font-typography:before {
+    content: "\ec36";
+}
+.sun-text-image-align-top-bottom:before {
+    content: "\ec37";
+}
+.sun-text-image-align-wrap:before {
+    content: "\ec38";
+}
+.sun-text-image-article-view:before {
+    content: "\ec39";
+}
+.sun-text-line-height-leading:before {
+    content: "\ec3a";
+}
+.sun-text-line-order:before {
+    content: "\ec3b";
+}
+.sun-text-line-view:before {
+    content: "\ec3c";
+}
+.sun-text-numbered-list:before {
+    content: "\ec3d";
+}
+.sun-text-paragraph-indent-left:before {
+    content: "\ec3e";
+}
+.sun-text-paragraph-indent-right:before {
+    content: "\ec3f";
+}
+.sun-text-paragraph-line-spacing:before {
+    content: "\ec40";
+}
+.sun-text-spelling-check:before {
+    content: "\ec41";
+}
+.sun-text-style-bold:before {
+    content: "\ec42";
+}
+.sun-text-style-italic:before {
+    content: "\ec43";
+}
+.sun-text-style-strikethrough:before {
+    content: "\ec44";
+}
+.sun-text-style-subscript:before {
+    content: "\ec45";
+}
+.sun-text-style-superscript:before {
+    content: "\ec46";
+}
+.sun-text-style-underline:before {
+    content: "\ec47";
+}
+.sun-thermometer-temperature-cold:before {
+    content: "\ec48";
+}
+.sun-thermometer-temperature-hot:before {
+    content: "\ec49";
+}
+.sun-thunderbolt:before {
+    content: "\ec4a";
+}
+.sun-ticket-movie-cinema:before {
+    content: "\ec4b";
+}
+.sun-tie-business-man:before {
+    content: "\ec4c";
+}
+.sun-time-watch-clock-wall:before {
+    content: "\ec4d";
+}
+.sun-time-watch-clock:before {
+    content: "\ec4e";
+}
+.sun-to-do-list-reminder-done:before {
+    content: "\ec4f";
+}
+.sun-toaster-kitchen-appliances:before {
+    content: "\ec50";
+}
+.sun-train-metro-transport:before {
+    content: "\ec53";
+}
+.sun-trash-bin-garbage:before {
+    content: "\ec54";
+}
+.sun-tube-laboratory-chemistry:before {
+    content: "\ec56";
+}
+.sun-tv-televison-movie-news:before {
+    content: "\ec57";
+}
+.sun-unable-unavailable-error:before {
+    content: "\ec58";
+}
+.sun-unlike-heart-broken-break-love:before {
+    content: "\ec5a";
+}
+.sun-unlink-url-unchain-hyperlink:before {
+    content: "\ec5b";
+}
+.sun-up-vote-plus-higher:before {
+    content: "\ec5c";
+}
+.sun-up:before {
+    content: "\ec5d";
+}
+.sun-upload-cloud-file-sync-backup:before {
+    content: "\ec5e";
+}
+.sun-upload-file:before {
+    content: "\ec5f";
+}
+.sun-upload-load-share:before {
+    content: "\ec60";
+}
+.sun-usb-connect:before {
+    content: "\ec61";
+}
+.sun-usb:before {
+    content: "\ec62";
+}
+.sun-user-location-position:before {
+    content: "\ec63";
+}
+.sun-user-profile-add-new:before {
+    content: "\ec64";
+}
+.sun-user-profile-avatar-girl-woman-female:before {
+    content: "\ec65";
+}
+.sun-user-profile-avatar-man-male:before {
+    content: "\ec66";
+}
+.sun-user-profile-avatar-woman-female:before {
+    content: "\ec67";
+}
+.sun-user-profile-back-tag:before {
+    content: "\ec68";
+}
+.sun-user-profile-remove-delete:before {
+    content: "\ec69";
+}
+.sun-user-profile-security-password-permissions:before {
+    content: "\ec6a";
+}
+.sun-user-profile-successful-check-verified:before {
+    content: "\ec6b";
+}
+.sun-user-profile:before {
+    content: "\ec6c";
+}
+.sun-users-profile-group-couple-man-woman:before {
+    content: "\ec6d";
+}
+.sun-users-profile-group-two:before {
+    content: "\ec6e";
+}
+.sun-van-truck-transport-vehicle:before {
+    content: "\ec70";
+}
+.sun-vector-bezier-curve-illustrator:before {
+    content: "\ec71";
+}
+.sun-video-movie-file-player:before {
+    content: "\ec73";
+}
+.sun-video-multimedia-movie:before {
+    content: "\ec74";
+}
+.sun-video-play-youtube:before {
+    content: "\ec75";
+}
+.sun-vine-glass-drink:before {
+    content: "\ec76";
+}
+.sun-vote-ticket-paper-voting:before {
+    content: "\ec78";
+}
+.sun-wall-picture-image-photo:before {
+    content: "\ec7a";
+}
+.sun-wallet-credit-card-money-payment:before {
+    content: "\ec7b";
+}
+.sun-wallet-money-payment:before {
+    content: "\ec7c";
+}
+.sun-washing-machine:before {
+    content: "\ec7e";
+}
+.sun-watch-heart-fitness-running-tracker:before {
+    content: "\ec7f";
+}
+.sun-water-hydrant-fire:before {
+    content: "\ec81";
+}
+.sun-water-pipe-drink:before {
+    content: "\ec82";
+}
+.sun-weather-cloud-sun:before {
+    content: "\ec84";
+}
+.sun-weather-cloud:before {
+    content: "\ec85";
+}
+.sun-weather-moon-stars-night-sleep:before {
+    content: "\ec86";
+}
+.sun-weather-rain-cloud:before {
+    content: "\ec87";
+}
+.sun-weather-rain-umbrella:before {
+    content: "\ec88";
+}
+.sun-weather-rain-water-drop:before {
+    content: "\ec89";
+}
+.sun-weather-snow-flake-winter:before {
+    content: "\ec8a";
+}
+.sun-weather-sun-summer:before {
+    content: "\ec8b";
+}
+.sun-weather-wind:before {
+    content: "\ec8d";
+}
+.sun-wi-fi-wlan-connect-internet-signal-antenna:before {
+    content: "\ec91";
+}
+.sun-wi-fi-wlan-connect-internet:before {
+    content: "\ec92";
+}
+.sun-wi-fi-wlan-router:before {
+    content: "\ec93";
+}
+.sun-wind-energy-power-turbines:before {
+    content: "\ec94";
+}
+.sun-window-alert-notification-warning-error:before {
+    content: "\ec95";
+}
+.sun-window-application-code-shell-terminal:before {
+    content: "\ec96";
+}
+.sun-window-application-cursor:before {
+    content: "\ec97";
+}
+.sun-window-application-settings-preferences:before {
+    content: "\ec98";
+}
+.sun-window-error-danger-stop:before {
+    content: "\ec99";
+}
+.sun-window-graph-analytics:before {
+    content: "\ec9a";
+}
+.sun-window-new-extern-full-screen-maximize:before {
+    content: "\ec9b";
+}
+.sun-window-text-images:before {
+    content: "\ec9c";
+}
+.sun-window-text-msg-box:before {
+    content: "\ec9d";
+}
+.sun-wine-grapes:before {
+    content: "\ec9e";
+}
+.sun-world-earth-worldwide-international-language:before {
+    content: "\eca1";
+}
+.sun-world-earth-worldwide-location-travel:before {
+    content: "\eca2";
+}
+.sun-wrist-watch-clock-time:before {
+    content: "\eca3";
+}
+.sun-write-pen-handwriting-signing:before {
+    content: "\eca4";
+}
+.sun-write-pencil-new-edit:before {
+    content: "\eca5";
+}
+.sun-www-website-address-url-browser:before {
+    content: "\eca6";
+}
+.sun-young-boy-user-profile-avatar-man-male:before {
+    content: "\eca7";
+}
+.sun-zoom-expand-maximize-window:before {
+    content: "\eca8";
+}
+.sun-zoom-in:before {
+    content: "\eca9";
+}
+.sun-zoom-out:before {
+    content: "\ecaa";
+}
